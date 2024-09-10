@@ -1,6 +1,6 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
-import 'package:perfection_structure/custom/p_appbar.dart';
+import 'package:perfection_structure/core/custom/p_appbar.dart';
 
 class ImageView extends StatefulWidget {
   const ImageView({super.key,this.img});

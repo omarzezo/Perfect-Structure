@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:perfection_structure/global/app_colors.dart';
-import 'package:perfection_structure/global/global_enum.dart';
+import 'package:perfection_structure/core/global/app_colors.dart';
+import 'package:perfection_structure/core/global/global_enum.dart';
 import 'p_text.dart';
 
 class PUnderlineTextField extends StatefulWidget {

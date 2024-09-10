@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:perfection_structure/global/app_colors.dart';
+import 'package:perfection_structure/core/global/app_colors.dart';
 
 
 class PTextField extends StatefulWidget {
