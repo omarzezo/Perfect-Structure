@@ -1,4 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:perfection_structure/core/custom/p_button.dart';
+import 'package:perfection_structure/core/custom/p_text.dart';
+import 'package:perfection_structure/core/custom/p_textfield.dart';
+import 'package:perfection_structure/core/global/global_enum.dart';
 
 void main() {
   runApp(const MyApp());
@@ -105,6 +109,15 @@ class _MyHomePageState extends State<MyHomePage> {
           // wireframe for each widget.
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            PTextField(hintText:'User Name', feedback:(value) {
+
+            }, validator:(value) {
+
+            },),
+            PText(title:'Omar', size:PSize.large),
+            PButton(onPressed:() {
+
+            },title:'click me',),
             const Text(
               'You have pushed the button this many times:',
             ),

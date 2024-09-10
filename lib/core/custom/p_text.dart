@@ -18,8 +18,8 @@ class PText extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-   double fontSize = size == PSize.large ? 17.0.sp : size == PSize.medium ? 14.0.sp : size == PSize.small ? 12.0.sp :
-   size==PSize.veryLarge ?20.sp:size==PSize.veryLarge ?24.sp:10.sp;
+   double fontSize = size == PSize.large ? 17.0 : size == PSize.medium ? 14.0 : size == PSize.small ? 12.0 :
+   size==PSize.veryLarge ?20:size==PSize.veryLarge ?24:10;
     return Row(
       mainAxisSize: MainAxisSize.min,
       children: [
