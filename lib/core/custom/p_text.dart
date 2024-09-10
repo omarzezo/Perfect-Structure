@@ -13,8 +13,8 @@ class PText extends StatelessWidget {
   final int? maxLines;
   final TextOverflow? overflow;
   final TextAlign? alignText;
-  const PText({Key? key, required this.title, required this.size,this.fontColor = AppColors.black,
-    this.fontWeight = FontWeight.w600, this.overflow,this.maxLines,this.decoration=TextDecoration.none, this.alignText,}) : super(key: key);
+  const PText({super.key, required this.title, required this.size,this.fontColor = AppColors.black,
+    this.fontWeight = FontWeight.w600, this.overflow,this.maxLines,this.decoration=TextDecoration.none, this.alignText,});
 
   @override
   Widget build(BuildContext context) {
